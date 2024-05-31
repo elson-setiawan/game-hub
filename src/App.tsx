@@ -17,7 +17,6 @@ function App() {
   };
 
   const onSelectPlatform = (platform: Platform) => {
-    console.log(platform);
     setSelectedPlatform(platform);
   };
   return (
